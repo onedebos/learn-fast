@@ -1,18 +1,25 @@
 # Lrn::Fast
 
-This is the frontend of an online course catalogue web app with search and filter features. This web app also uses redux under the hood to hold the state of a shopping cart.
+This is the frontend of an online course catalogue web app with search and filter features. This web app also uses redux toolkit under the hood to hold the state of a shopping cart.
 
 ## Video demo
 
 ![](./lrn-fast.gif)
+
+## Live version
+
+[See it](https://lrn-fast.netlify.com)
 
 ## Built With
 
 - React
 - Redux toolkit
 - Tailwind CSS
+- Figma
 
 ## Original UI design
+
+- UI/UX design also done by me.
 
 ![](./lrn-fast-UI.png)
 
