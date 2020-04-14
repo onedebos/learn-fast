@@ -76,10 +76,10 @@ export const CartItems = () => {
               <p className="font-bold text-xl ">Totals</p>{" "}
             </div>
             <div className="text-center">
-              <p className="font-medium">{totalItemsInCart} items</p>
+              <p className="font-semibold">{totalItemsInCart} items</p>
             </div>
             <div className="text-center">
-              <p className="font-medium">${totalPriceOfCart}</p>
+              <p className="font-semibold">${totalPriceOfCart}</p>
             </div>
           </div>
         </div>
