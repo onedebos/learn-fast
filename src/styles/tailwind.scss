@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+$base-bg: #171c26;
+$light-bg: #edf2f7;
+$light-text: #9bb5f2;
+$highlight-color: #b2f5ea;
+
+.bg-base-color {
+  background-color: $base-bg;
+}
+
+.bg-light-color {
+  background-color: $light-bg;
+}
+
+.border-light-color {
+  border-color: $light-text;
+}
+
+.border-dark-color {
+  border-color: #5f8af0;
+}
+
+.bg-highlight-color {
+  background-color: $highlight-color;
+}
+
+.text-light-color {
+  color: $light-text;
+}
