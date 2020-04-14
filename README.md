@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55db59a8-ad73-4478-b749-8c94a52288d4/deploy-status)](https://app.netlify.com/sites/lrn-fast/deploys)
+
 # Lrn::Fast
 
 This is the frontend of an online course catalogue web app with search and filter features. This web app also uses redux toolkit under the hood to hold the state of a shopping cart.
