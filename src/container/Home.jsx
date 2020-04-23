@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { uuid } from "uuidv4";
+import "../styles/Home.css";
 import { useDispatch, useSelector } from "react-redux";
 
 import FeaturedCourses from "../components/FeaturedCourses";
@@ -59,8 +60,11 @@ export const Home = () => {
           Featured courses
           <div className="text-center w-2/12 lg:w-1/12 m-auto border-b-2 border-indigo-400"></div>
         </h1>
-
-        <FeaturedCourses featuredCourses={featuredCourses} />
+        {featuredCourses.length < 1 ? (
+          <div className="loader">loading</div>
+        ) : (
+          <FeaturedCourses featuredCourses={featuredCourses} />
+        )}
       </div>
     </div>
   );
